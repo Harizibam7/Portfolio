@@ -1,4 +1,4 @@
-import { type ExperienceShowcaseListItemProps } from "@/components/experience/experience-showcase-list-item";
+import { ExperienceShowcaseListItemProps } from "@/components/experience/experience-showcase-list-item";
 
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
@@ -10,7 +10,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     date: "2022-2026",
     location: "Erode, Tamil Nadu",
     description:
-      "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network and Database Management.",
+      "Relevant courses included Data Structures and Algorithms, Web Design, Cloud Computing, Artificial Neural Network, and Database Management.",
   },
   {
     title: "Higher Secondary School",
@@ -31,7 +31,6 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     },
     date: "2007-2014",
     location: "Tenkasi, Tamil Nadu",
-    description:
-      "Learned good values,dedication and disciplne.",
+    description: "Learned good values, dedication, and discipline.",
   },
 ];

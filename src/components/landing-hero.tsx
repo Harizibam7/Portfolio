@@ -1,7 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-
 import { AnimatePresence, motion } from "framer-motion";
-
 import FadeUp from "@/animation/fade-up";
 
 export default function LandingHero() {
@@ -46,31 +44,46 @@ export default function LandingHero() {
               </span>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
-              <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-2xl flex gap-5">
-              <span className="text-accent">
-                <a
-                  href="https://leetcode.com/u/kalaiselviV/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-accent underline hover:text-accent-hover z-10"
-                  style={{ pointerEvents: 'auto' }}
-                >
-                  Leetcode
-                </a>
-                <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mt-2">
-                  480+ Solved
-                </h3>
-              </span>
-
+              <div className="mt-8 flex max-w-3xl gap-5 text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-2xl">
                 <span className="text-accent">
-                  <a href="https://www.codechef.com/users/harizibamv" target="_blank" rel="noopener noreferrer" className="text-accent underline hover:text-accent-hover z-10" style={{ pointerEvents: 'auto' }}>Codechef</a>
-                  <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mt-2">
+                  <a
+                    href="https://leetcode.com/u/kalaiselviV/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-accent-hover z-10 text-accent underline"
+                    style={{ pointerEvents: "auto" }}
+                  >
+                    Leetcode
+                  </a>
+                  <h3 className="mt-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
+                    480+ Solved
+                  </h3>
+                </span>
+                <span className="text-accent">
+                  <a
+                    href="https://www.codechef.com/users/harizibamv"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-accent-hover z-10 text-accent underline"
+                    style={{ pointerEvents: "auto" }}
+                  >
+                    Codechef
+                  </a>
+                  <h3 className="mt-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
                     Max(1283)
                   </h3>
                 </span>
                 <span className="text-accent">
-                  <a href="https://codeforces.com/profile/harizibam" target="_blank" rel="noopener noreferrer" className="text-accent underline hover:text-accent-hover z-10" style={{ pointerEvents: 'auto' }}>Codeforce</a>
-                  <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mt-2">
+                  <a
+                    href="https://codeforces.com/profile/harizibam"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-accent-hover z-10 text-accent underline"
+                    style={{ pointerEvents: "auto" }}
+                  >
+                    Codeforce
+                  </a>
+                  <h3 className="mt-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
                     Max(891) newbie
                   </h3>
                 </span>

@@ -1,6 +1,5 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -12,7 +11,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       LIGHT: "/images/projects/Project1_1.png",
       DARK: "/images/projects/Project1_1.png",
     },
-  }
+  },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
@@ -24,9 +23,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/Project1_1.png",
     ],
     description:
-      " Discover your dream career with our comprehensive job seeker platform, connecting you with endless opportunities worldwide.",
+      "Discover your dream career with our comprehensive job seeker platform, connecting you with endless opportunities worldwide.",
     sourceCodeHref: "https://github.com/Harizibam7/PRd",
     liveWebsiteHref: "https://github.com/Harizibam7/PRd",
   },
-  
 ];
