@@ -47,7 +47,7 @@ export default function LandingHero() {
               <div className="mt-8 flex max-w-3xl gap-5 text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-2xl">
                 <span className="text-accent">
                   <a
-                    href="https://leetcode.com/u/kalaiselviV/"
+                    href="https://leetcode.com/u/harizibamv/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:text-accent-hover z-10 text-accent underline"
