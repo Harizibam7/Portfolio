@@ -56,7 +56,7 @@ export default function LandingHero() {
                     Leetcode
                   </a>
                   <h3 className="mt-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
-                    510+ Solved
+                    520+ Solved
                   </h3>
                 </span>
                 <span className="text-accent">
