@@ -70,7 +70,7 @@ export default function LandingHero() {
                     Codechef
                   </a>
                   <h3 className="mt-2 text-lg font-semibold text-gray-800 dark:text-gray-200">
-                    Max(1283)
+                    Max(1398)
                   </h3>
                 </span>
                 <span className="text-accent">
