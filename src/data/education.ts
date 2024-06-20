@@ -21,7 +21,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     date: "2015-2021",
     location: "Tenkasi, Tamil Nadu",
     description:
-      "Completed the course in Computer Science with 91.3% in 12th Grade and 68% in 10th Grade.",
+      "Completed the course in Computer Science with 91.3% in 12th Grade.",
   },
   {
     title: "Secondary School Education",
